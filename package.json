@@ -1,0 +1,26 @@
+{
+  "name": "oop-concepts",
+  "version": "0.0.1",
+  "description": "An implementation of OOP concepts",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha output/test.js",
+    "compile": "babel src --presets es2015 -d output"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Polymathwole/self-learning-day-1.git"
+  },
+  "author": "Oluwaremi Oluwole",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Polymathwole/self-learning-day-1/issues"
+  },
+  "homepage": "https://github.com/Polymathwole/self-learning-day-1#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "chai": "^4.1.2",
+    "mocha": "^3.5.3"
+  }
+}
